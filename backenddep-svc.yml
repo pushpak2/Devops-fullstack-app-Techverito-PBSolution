@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: pushpak4/backend:v3
+        image: pushpak4/backend:18
         env:
         - name: DB_HOST
           value: postgres-service
