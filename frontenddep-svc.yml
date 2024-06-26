@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name:  reactjs-frontend
-        image: pushpak4/frontend:v3
+        image: pushpak4/frontend:18
         ports:
         - containerPort: 3000
 ---
